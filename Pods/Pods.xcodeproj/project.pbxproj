@@ -7,419 +7,771 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */; };
-		0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */; };
-		2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F877C1307679178400D9D8A0C425E1B /* Pods-ribotTeamtvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D16E0B3995D8581A53C6FB4F4FAE37B /* Pods-ribotTeamtvOS-dummy.m */; };
-		404EF53CC5535341CC1D08E400B7E3F0 /* Pods-ribotTeamtvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A263240CEDCB41E8D4971BBCAF24C8AE /* Pods-ribotTeamtvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */; };
-		56F9401A680FA5A89846E5343C72D3C6 /* Pods-ribotTeam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA3BB01BA13DE4971A578C31B97B82 /* Pods-ribotTeam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */; };
-		82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */; };
-		8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */; };
-		976BA58F99C86B60DACB8F3A59B23A91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2BF98B0ED3D2628D889BC2E4015F2 /* Foundation.framework */; };
-		9B94787F76E0805916CE55F223DB7C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2BF98B0ED3D2628D889BC2E4015F2 /* Foundation.framework */; };
-		A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241F56B5C8C48BD734958D586267D1A /* Manager.swift */; };
-		A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */; };
-		B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */; };
-		B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */; };
-		C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B19103BE8402A434ED95F67573911 /* Validation.swift */; };
-		D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */; };
-		D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83957AB2EE778B52399CC4C903539BD0 /* Error.swift */; };
-		E2220228D53D638272C94087588CDC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2BF98B0ED3D2628D889BC2E4015F2 /* Foundation.framework */; };
-		E4130ECC96831485B373C96CE2A07B97 /* Pods-ribotTeam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE7D45CDB13BD84333A96339935E30 /* Pods-ribotTeam-dummy.m */; };
-		FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */; };
-		FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */; };
+		0569CCC75C40F14C076F0CF6 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3ABF4DC3B6B40B46CD4737 /* ResponseSerialization.swift */; };
+		14843E41389B114657C6CA7F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3200429997E97BFC3AA0320 /* Request.swift */; };
+		16AE23B3E8B2C1B4E08E27C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5197FC6AF894F7D47E089B8 /* Foundation.framework */; };
+		1FCC9A34D955A99B77B8EF05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE76EBB1A396AF2E637E4C64 /* Foundation.framework */; };
+		288D1F8E562A0816BA396DAF /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29593A006D0DBF0893DB36AF /* Download.swift */; };
+		2FB8698F7E18646462D6BADF /* Pods-ribotTeam-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A5853CD86E839FCC3BF47B /* Pods-ribotTeam-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3191F3F509A46958350E0D78 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0DA76085AD417F481FA50 /* ServerTrustPolicy.swift */; };
+		33FE0EB21AD85F93B2789B26 /* Pods-ribotTeamtvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 808A20AF7AFBA7A1DD18E567 /* Pods-ribotTeamtvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E47D6227B2AF44E199960F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3200429997E97BFC3AA0320 /* Request.swift */; };
+		45C71F614854075C99CC0101 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2FD1EE1F8D19098079184 /* Result.swift */; };
+		50B3411BF97F7B2141E8B19A /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DDECC36D90FB7BE5B76927 /* Stream.swift */; };
+		587F3FF10D3770F310AE9B3E /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29593A006D0DBF0893DB36AF /* Download.swift */; };
+		5D85F7B6D24641E4C493E06D /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2433B419937D3AAAFAB5BB /* MultipartFormData.swift */; };
+		73F2F1E5C2E4DFFAC0D954C8 /* Pods-ribotTeam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 622FC966B4480098E53A21ED /* Pods-ribotTeam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760E2DB528BD7E6D81F801FF /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF53545C0D2D4837AB19D5 /* Upload.swift */; };
+		77B81E4798DB04B9A13F93B0 /* Pods-ribotTeamtvOS-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 428BCAC6C763FBEC0D9F9A21 /* Pods-ribotTeamtvOS-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C5058886F357C3445CF92E /* Pods-ribotTeam-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7AC7CD2DAD2BF2BB3E9970 /* Pods-ribotTeam-Alamofire-dummy.m */; };
+		7A2369691D5CF03790449F69 /* Pods-ribotTeamtvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 095C3067232FA75370BF41E5 /* Pods-ribotTeamtvOS-dummy.m */; };
+		7DA112090DBD7083C4C73E9F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C54CA1A2FB30DFD7F3BB27 /* Response.swift */; };
+		7EF0E7A694426F463B31C96C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D730ACC72D4CDA228E7DFEFF /* Manager.swift */; };
+		80B11FBF83B470206AA4BA6B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C54CA1A2FB30DFD7F3BB27 /* Response.swift */; };
+		81E5A759D1C898A9B399EB70 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2FD1EE1F8D19098079184 /* Result.swift */; };
+		86D1A12EA302A004968564B2 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D730ACC72D4CDA228E7DFEFF /* Manager.swift */; };
+		8AC14DBD6208B9214970C911 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079A5D3C6C48613260F5122 /* Validation.swift */; };
+		8B0C16D3927262A46F2EA606 /* Pods-ribotTeam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF1DA00052913EEB4280B3 /* Pods-ribotTeam-dummy.m */; };
+		936D2707D69D10A4C3351D74 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2433B419937D3AAAFAB5BB /* MultipartFormData.swift */; };
+		97DAE4EABE91B56FC0BF441E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76541393ADA0AE48CB59B2 /* Alamofire.swift */; };
+		A1671C10D41CB752600697AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5197FC6AF894F7D47E089B8 /* Foundation.framework */; };
+		A2754A30B9D83867E0290A6F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76541393ADA0AE48CB59B2 /* Alamofire.swift */; };
+		AA252F755062D84AF4D3B4F4 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0DA76085AD417F481FA50 /* ServerTrustPolicy.swift */; };
+		AD635059353629B38C01D15A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3ABF4DC3B6B40B46CD4737 /* ResponseSerialization.swift */; };
+		B06DE4EF5ED2484AF153559D /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF53545C0D2D4837AB19D5 /* Upload.swift */; };
+		B80CE46FAAD2C0418DE28600 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB003FEE9AC1B81D8E72A5E6 /* Error.swift */; };
+		BEB7F0F8296FCC186D4B5BDC /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B0A248011D28105B4E7A4 /* ParameterEncoding.swift */; };
+		C1C4D150A60DA5B20B21E3C4 /* Pods-ribotTeamtvOS-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EE48026B3BF4141E29F9AB /* Pods-ribotTeamtvOS-Alamofire-dummy.m */; };
+		C81C9D8B660AB095613605B7 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079A5D3C6C48613260F5122 /* Validation.swift */; };
+		E6CFF8728221B12AA882E4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE76EBB1A396AF2E637E4C64 /* Foundation.framework */; };
+		EDE1C265437003033B669D9B /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DDECC36D90FB7BE5B76927 /* Stream.swift */; };
+		EE1F3C9DC38949BA1151D6A4 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB003FEE9AC1B81D8E72A5E6 /* Error.swift */; };
+		F14FA4120205722D2FAC3F96 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B0A248011D28105B4E7A4 /* ParameterEncoding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B1E5FF304482B4543F1096BC46CEB43C /* PBXContainerItemProxy */ = {
+		3159A3D2D299A5D0D6BB20C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = E8F9F7B44B7DF1476DFAC228 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 9ACDB816942330803AEC86B0;
+			remoteInfo = "Pods-ribotTeamtvOS-Alamofire";
 		};
-		E4CA8F9A5222B2EEF2DA0B082F54E3FB /* PBXContainerItemProxy */ = {
+		833CC5767FFECBB59D57A3B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = E8F9F7B44B7DF1476DFAC228 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = F5FE6895BBEAF7D6CA3DCDBE;
+			remoteInfo = "Pods-ribotTeam-Alamofire";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07AD0068BC7A7C56BDCDE3D05B1E3B5C /* Pods-ribotTeamtvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ribotTeamtvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		13A45AA73BF451B10FCBD63A7AC866A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14D18862FAFE0ED8198F95260FCAD208 /* Pods-ribotTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeam.release.xcconfig"; sourceTree = "<group>"; };
-		1B66CE477F7450B81008C0637DA3A26C /* Pods-ribotTeamtvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ribotTeamtvOS.modulemap"; sourceTree = "<group>"; };
-		1D16E0B3995D8581A53C6FB4F4FAE37B /* Pods-ribotTeamtvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ribotTeamtvOS-dummy.m"; sourceTree = "<group>"; };
-		21FA4AD1EF77337F9C8F2AD871ED371D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		2C49BE9BFDEB679967831373A4C9F09C /* Pods-ribotTeamtvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ribotTeamtvOS-frameworks.sh"; sourceTree = "<group>"; };
-		33A2BF98B0ED3D2628D889BC2E4015F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		488267F0ADE61A30891B1B4DB24F8322 /* Pods-ribotTeamtvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeamtvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		5241F56B5C8C48BD734958D586267D1A /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		5338F7F31D140E5C93FBCEBD7DEC2CDF /* Pods-ribotTeamtvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeamtvOS.release.xcconfig"; sourceTree = "<group>"; };
-		5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		57B4F549C62F7740667A0348678E3349 /* Pods-ribotTeam-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ribotTeam-frameworks.sh"; sourceTree = "<group>"; };
-		5E53BF5A61CAF6972C5CDD2C3EE6C003 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75A62811626990D6024790603183CA42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		779B19103BE8402A434ED95F67573911 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		77BC84C953CC6AAAE661A8925D94B048 /* Pods-ribotTeam-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ribotTeam-resources.sh"; sourceTree = "<group>"; };
-		7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		7D3E2434207BB7175E34B4909BBC6539 /* Pods-ribotTeam-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ribotTeam-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		83957AB2EE778B52399CC4C903539BD0 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		871AFFC914EC525FABF07513885ED232 /* Pods_ribotTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribotTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87A950941D7692B7BBD93C823EC77A96 /* Pods-ribotTeamtvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ribotTeamtvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		96E7BE3A3DCE4CBB089D2D55CD287A39 /* Pods-ribotTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeam.debug.xcconfig"; sourceTree = "<group>"; };
-		9D5C831B00B3E5251CD0C9F8ABFA446E /* Pods-ribotTeamtvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ribotTeamtvOS-resources.sh"; sourceTree = "<group>"; };
-		A263240CEDCB41E8D4971BBCAF24C8AE /* Pods-ribotTeamtvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ribotTeamtvOS-umbrella.h"; sourceTree = "<group>"; };
-		ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		B8FE7D45CDB13BD84333A96339935E30 /* Pods-ribotTeam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ribotTeam-dummy.m"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDB41217A608BB66906AD2B1FCFC3309 /* Pods_ribotTeamtvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribotTeamtvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		CD75BAA840F86F99D2C7AEDD5F35DC41 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6444A7E1C3C56AAFC7042C80ACE9003 /* Pods-ribotTeam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ribotTeam.modulemap"; sourceTree = "<group>"; };
-		E6D51E88CF06503F74AC8F5ECD5A209B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		EFF21763794E8FCC6CAC92E4058A99D2 /* Pods-ribotTeam-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ribotTeam-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		FFFA3BB01BA13DE4971A578C31B97B82 /* Pods-ribotTeam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ribotTeam-umbrella.h"; sourceTree = "<group>"; };
+		06CF1DA00052913EEB4280B3 /* Pods-ribotTeam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ribotTeam-dummy.m"; sourceTree = "<group>"; };
+		095C3067232FA75370BF41E5 /* Pods-ribotTeamtvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ribotTeamtvOS-dummy.m"; sourceTree = "<group>"; };
+		1F3ABF4DC3B6B40B46CD4737 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		2079A5D3C6C48613260F5122 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		24EBD92AB60B6A1797E13246 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A0DA76085AD417F481FA50 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		27D673ADB5BE62336D959A82 /* Pods-ribotTeam-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ribotTeam-acknowledgements.plist"; sourceTree = "<group>"; };
+		28E2FD1EE1F8D19098079184 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		29593A006D0DBF0893DB36AF /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		2A35CC28EAEDD2434EA2A1A3 /* Pods_ribotTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribotTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B220F0A583B35426F3DE0A0 /* Pods-ribotTeamtvOS-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribotTeamtvOS-Alamofire.xcconfig"; path = "../Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		37CBC2B5F26A57FAA67CA45D /* Pods-ribotTeamtvOS-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ribotTeamtvOS-Alamofire.modulemap"; path = "../Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire.modulemap"; sourceTree = "<group>"; };
+		38A5853CD86E839FCC3BF47B /* Pods-ribotTeam-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ribotTeam-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		3C4ECEFD4257360D2A35BA7D /* Pods-ribotTeam-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ribotTeam-frameworks.sh"; sourceTree = "<group>"; };
+		428BCAC6C763FBEC0D9F9A21 /* Pods-ribotTeamtvOS-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ribotTeamtvOS-Alamofire-umbrella.h"; path = "../Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		4A14425DB764C16391881471 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5340C9F0A0C5D3DBB61C7F97 /* Pods-ribotTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeam.release.xcconfig"; sourceTree = "<group>"; };
+		5431FCB8F2B7EF6F9ABF070B /* Pods-ribotTeamtvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ribotTeamtvOS.modulemap"; sourceTree = "<group>"; };
+		56DDECC36D90FB7BE5B76927 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		57A73394BAF11B299DE020BD /* Pods-ribotTeam-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ribotTeam-resources.sh"; sourceTree = "<group>"; };
+		5A1F3BDF4134D9904CE7EDC2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		622FC966B4480098E53A21ED /* Pods-ribotTeam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ribotTeam-umbrella.h"; sourceTree = "<group>"; };
+		670D4546282550FCCC62613A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ribotTeamtvOS-Alamofire/Info.plist"; sourceTree = "<group>"; };
+		6B7AC7CD2DAD2BF2BB3E9970 /* Pods-ribotTeam-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ribotTeam-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		7A76541393ADA0AE48CB59B2 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		7FEA70D1AACE1E64D7DCCBAE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		808A20AF7AFBA7A1DD18E567 /* Pods-ribotTeamtvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ribotTeamtvOS-umbrella.h"; sourceTree = "<group>"; };
+		84F07B958FDA3A3E65CCB882 /* Pods-ribotTeam-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeam-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		8D54F9B80938D88C0784943D /* Pods-ribotTeam-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ribotTeam-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		91125A64DDF4C86489D2BE4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9316BCBFF8DC2A3488934AC3 /* Pods-ribotTeamtvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeamtvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		98DF53545C0D2D4837AB19D5 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		98EB19C4BC670BCCB2A6EA84 /* Pods-ribotTeamtvOS-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ribotTeamtvOS-Alamofire-prefix.pch"; path = "../Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		A1C54CA1A2FB30DFD7F3BB27 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		A2EE48026B3BF4141E29F9AB /* Pods-ribotTeamtvOS-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ribotTeamtvOS-Alamofire-dummy.m"; path = "../Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		A5197FC6AF894F7D47E089B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AB003FEE9AC1B81D8E72A5E6 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		AD2433B419937D3AAAFAB5BB /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		B251D6F5A8BD2426373F6DD6 /* Pods_ribotTeamtvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribotTeamtvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF47C1E55E87996EB7A2F47 /* Pods-ribotTeam-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ribotTeam-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C01A5190C02F025949C560C0 /* Pods-ribotTeamtvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ribotTeamtvOS-frameworks.sh"; sourceTree = "<group>"; };
+		C3200429997E97BFC3AA0320 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C4792418A09A175F23221DA2 /* Pods-ribotTeamtvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ribotTeamtvOS-resources.sh"; sourceTree = "<group>"; };
+		C831EA3BD0C5EA94BF72C8DE /* Pods-ribotTeamtvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ribotTeamtvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		D40FF4C17C7BEC8DFD554481 /* Pods-ribotTeam-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ribotTeam-Alamofire.modulemap"; sourceTree = "<group>"; };
+		D70B0A248011D28105B4E7A4 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		D730ACC72D4CDA228E7DFEFF /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		D9D17DA4AED7DE746E1B9A7B /* Pods-ribotTeamtvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ribotTeamtvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE76EBB1A396AF2E637E4C64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6EAAB6845F042252B4EDB6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9046336D246E648B73B8FDC /* Pods-ribotTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeam.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF5DE1D43CA68B2B6A5B691 /* Pods-ribotTeam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ribotTeam.modulemap"; sourceTree = "<group>"; };
+		F3115F9679CF4C8A91194D73 /* Pods-ribotTeamtvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ribotTeamtvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		696F682F2E7E74FDB466EAE7859D3B1E /* Frameworks */ = {
+		1A2535A55E11C9C4A7DF4C77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B94787F76E0805916CE55F223DB7C68 /* Foundation.framework in Frameworks */,
+				1FCC9A34D955A99B77B8EF05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */ = {
+		968364EF95B9A3C7B9AF3414 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				976BA58F99C86B60DACB8F3A59B23A91 /* Foundation.framework in Frameworks */,
+				A1671C10D41CB752600697AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0FE62653ED14A28D90CE164C433A16C /* Frameworks */ = {
+		BB29D22F9B79833084A90F29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2220228D53D638272C94087588CDC06 /* Foundation.framework in Frameworks */,
+				16AE23B3E8B2C1B4E08E27C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5B3DB586B61CDBD4997491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CFF8728221B12AA882E4DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		039D4EAE0116892ACC62D5089D2D09D2 /* Targets Support Files */ = {
+		2C3C20ECB0D053C7341378E6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D0C62F42F9DBD8393DE3A280624836B /* Pods-ribotTeam */,
-				D03DEF48762E0AB472ACE89833E73F93 /* Pods-ribotTeamtvOS */,
+				670D4546282550FCCC62613A /* Info.plist */,
+				91125A64DDF4C86489D2BE4D /* Info.plist */,
+				D40FF4C17C7BEC8DFD554481 /* Pods-ribotTeam-Alamofire.modulemap */,
+				84F07B958FDA3A3E65CCB882 /* Pods-ribotTeam-Alamofire.xcconfig */,
+				6B7AC7CD2DAD2BF2BB3E9970 /* Pods-ribotTeam-Alamofire-dummy.m */,
+				8D54F9B80938D88C0784943D /* Pods-ribotTeam-Alamofire-prefix.pch */,
+				38A5853CD86E839FCC3BF47B /* Pods-ribotTeam-Alamofire-umbrella.h */,
+				37CBC2B5F26A57FAA67CA45D /* Pods-ribotTeamtvOS-Alamofire.modulemap */,
+				2B220F0A583B35426F3DE0A0 /* Pods-ribotTeamtvOS-Alamofire.xcconfig */,
+				A2EE48026B3BF4141E29F9AB /* Pods-ribotTeamtvOS-Alamofire-dummy.m */,
+				98EB19C4BC670BCCB2A6EA84 /* Pods-ribotTeamtvOS-Alamofire-prefix.pch */,
+				428BCAC6C763FBEC0D9F9A21 /* Pods-ribotTeamtvOS-Alamofire-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ribotTeam-Alamofire";
 			sourceTree = "<group>";
 		};
-		09192E6B9C45ACAB5568261F45FA3D88 /* Alamofire */ = {
+		52BF933FC99E586982AB4B74 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */,
-				ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */,
-				83957AB2EE778B52399CC4C903539BD0 /* Error.swift */,
-				5241F56B5C8C48BD734958D586267D1A /* Manager.swift */,
-				10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */,
-				5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */,
-				FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */,
-				8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */,
-				F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */,
-				7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */,
-				52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */,
-				C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */,
-				948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */,
-				779B19103BE8402A434ED95F67573911 /* Validation.swift */,
-				405A7C3030F6D3BDE3978D6D558FDF7F /* Support Files */,
+				7A76541393ADA0AE48CB59B2 /* Alamofire.swift */,
+				29593A006D0DBF0893DB36AF /* Download.swift */,
+				AB003FEE9AC1B81D8E72A5E6 /* Error.swift */,
+				D730ACC72D4CDA228E7DFEFF /* Manager.swift */,
+				AD2433B419937D3AAAFAB5BB /* MultipartFormData.swift */,
+				D70B0A248011D28105B4E7A4 /* ParameterEncoding.swift */,
+				C3200429997E97BFC3AA0320 /* Request.swift */,
+				A1C54CA1A2FB30DFD7F3BB27 /* Response.swift */,
+				1F3ABF4DC3B6B40B46CD4737 /* ResponseSerialization.swift */,
+				28E2FD1EE1F8D19098079184 /* Result.swift */,
+				26A0DA76085AD417F481FA50 /* ServerTrustPolicy.swift */,
+				56DDECC36D90FB7BE5B76927 /* Stream.swift */,
+				98DF53545C0D2D4837AB19D5 /* Upload.swift */,
+				2079A5D3C6C48613260F5122 /* Validation.swift */,
+				2C3C20ECB0D053C7341378E6 /* Support Files */,
 			);
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */ = {
+		6625765FEC0E02320A5F62A9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				09192E6B9C45ACAB5568261F45FA3D88 /* Alamofire */,
+				6CDAAA71C794F445DABA7173 /* Pods-ribotTeam */,
+				66EB7B40807B45790626E6D0 /* Pods-ribotTeamtvOS */,
 			);
-			name = Pods;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3D0C62F42F9DBD8393DE3A280624836B /* Pods-ribotTeam */ = {
+		66EB7B40807B45790626E6D0 /* Pods-ribotTeamtvOS */ = {
 			isa = PBXGroup;
 			children = (
-				13A45AA73BF451B10FCBD63A7AC866A2 /* Info.plist */,
-				D6444A7E1C3C56AAFC7042C80ACE9003 /* Pods-ribotTeam.modulemap */,
-				EFF21763794E8FCC6CAC92E4058A99D2 /* Pods-ribotTeam-acknowledgements.markdown */,
-				7D3E2434207BB7175E34B4909BBC6539 /* Pods-ribotTeam-acknowledgements.plist */,
-				B8FE7D45CDB13BD84333A96339935E30 /* Pods-ribotTeam-dummy.m */,
-				57B4F549C62F7740667A0348678E3349 /* Pods-ribotTeam-frameworks.sh */,
-				77BC84C953CC6AAAE661A8925D94B048 /* Pods-ribotTeam-resources.sh */,
-				FFFA3BB01BA13DE4971A578C31B97B82 /* Pods-ribotTeam-umbrella.h */,
-				96E7BE3A3DCE4CBB089D2D55CD287A39 /* Pods-ribotTeam.debug.xcconfig */,
-				14D18862FAFE0ED8198F95260FCAD208 /* Pods-ribotTeam.release.xcconfig */,
-			);
-			name = "Pods-ribotTeam";
-			path = "Target Support Files/Pods-ribotTeam";
-			sourceTree = "<group>";
-		};
-		405A7C3030F6D3BDE3978D6D558FDF7F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				21FA4AD1EF77337F9C8F2AD871ED371D /* Alamofire.modulemap */,
-				7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */,
-				8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */,
-				E6D51E88CF06503F74AC8F5ECD5A209B /* Alamofire-prefix.pch */,
-				4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */,
-				5E53BF5A61CAF6972C5CDD2C3EE6C003 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BB99B8D4C7329D10E7E4451B0A72C15A /* Frameworks */,
-				20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */,
-				C9A4B9C67955EBACB283C894575474B9 /* Products */,
-				039D4EAE0116892ACC62D5089D2D09D2 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BB99B8D4C7329D10E7E4451B0A72C15A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FED99894716A2FB2E381E1188C25DC66 /* tvOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C9A4B9C67955EBACB283C894575474B9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD75BAA840F86F99D2C7AEDD5F35DC41 /* Alamofire.framework */,
-				871AFFC914EC525FABF07513885ED232 /* Pods_ribotTeam.framework */,
-				BDB41217A608BB66906AD2B1FCFC3309 /* Pods_ribotTeamtvOS.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D03DEF48762E0AB472ACE89833E73F93 /* Pods-ribotTeamtvOS */ = {
-			isa = PBXGroup;
-			children = (
-				75A62811626990D6024790603183CA42 /* Info.plist */,
-				1B66CE477F7450B81008C0637DA3A26C /* Pods-ribotTeamtvOS.modulemap */,
-				07AD0068BC7A7C56BDCDE3D05B1E3B5C /* Pods-ribotTeamtvOS-acknowledgements.markdown */,
-				87A950941D7692B7BBD93C823EC77A96 /* Pods-ribotTeamtvOS-acknowledgements.plist */,
-				1D16E0B3995D8581A53C6FB4F4FAE37B /* Pods-ribotTeamtvOS-dummy.m */,
-				2C49BE9BFDEB679967831373A4C9F09C /* Pods-ribotTeamtvOS-frameworks.sh */,
-				9D5C831B00B3E5251CD0C9F8ABFA446E /* Pods-ribotTeamtvOS-resources.sh */,
-				A263240CEDCB41E8D4971BBCAF24C8AE /* Pods-ribotTeamtvOS-umbrella.h */,
-				488267F0ADE61A30891B1B4DB24F8322 /* Pods-ribotTeamtvOS.debug.xcconfig */,
-				5338F7F31D140E5C93FBCEBD7DEC2CDF /* Pods-ribotTeamtvOS.release.xcconfig */,
+				4A14425DB764C16391881471 /* Info.plist */,
+				5431FCB8F2B7EF6F9ABF070B /* Pods-ribotTeamtvOS.modulemap */,
+				D9D17DA4AED7DE746E1B9A7B /* Pods-ribotTeamtvOS-acknowledgements.markdown */,
+				C831EA3BD0C5EA94BF72C8DE /* Pods-ribotTeamtvOS-acknowledgements.plist */,
+				095C3067232FA75370BF41E5 /* Pods-ribotTeamtvOS-dummy.m */,
+				C01A5190C02F025949C560C0 /* Pods-ribotTeamtvOS-frameworks.sh */,
+				C4792418A09A175F23221DA2 /* Pods-ribotTeamtvOS-resources.sh */,
+				808A20AF7AFBA7A1DD18E567 /* Pods-ribotTeamtvOS-umbrella.h */,
+				9316BCBFF8DC2A3488934AC3 /* Pods-ribotTeamtvOS.debug.xcconfig */,
+				F3115F9679CF4C8A91194D73 /* Pods-ribotTeamtvOS.release.xcconfig */,
 			);
 			name = "Pods-ribotTeamtvOS";
 			path = "Target Support Files/Pods-ribotTeamtvOS";
 			sourceTree = "<group>";
 		};
-		FED99894716A2FB2E381E1188C25DC66 /* tvOS */ = {
+		67CECF03F32465A02D4501F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33A2BF98B0ED3D2628D889BC2E4015F2 /* Foundation.framework */,
+				F9D9A90CD55D32B19CEC2871 /* iOS */,
+				BC1B3ACC5410D943F5D9DB7D /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CDAAA71C794F445DABA7173 /* Pods-ribotTeam */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAAB6845F042252B4EDB6D /* Info.plist */,
+				EFF5DE1D43CA68B2B6A5B691 /* Pods-ribotTeam.modulemap */,
+				BCF47C1E55E87996EB7A2F47 /* Pods-ribotTeam-acknowledgements.markdown */,
+				27D673ADB5BE62336D959A82 /* Pods-ribotTeam-acknowledgements.plist */,
+				06CF1DA00052913EEB4280B3 /* Pods-ribotTeam-dummy.m */,
+				3C4ECEFD4257360D2A35BA7D /* Pods-ribotTeam-frameworks.sh */,
+				57A73394BAF11B299DE020BD /* Pods-ribotTeam-resources.sh */,
+				622FC966B4480098E53A21ED /* Pods-ribotTeam-umbrella.h */,
+				E9046336D246E648B73B8FDC /* Pods-ribotTeam.debug.xcconfig */,
+				5340C9F0A0C5D3DBB61C7F97 /* Pods-ribotTeam.release.xcconfig */,
+			);
+			name = "Pods-ribotTeam";
+			path = "Target Support Files/Pods-ribotTeam";
+			sourceTree = "<group>";
+		};
+		8835D031E60735337B7B0233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24EBD92AB60B6A1797E13246 /* Alamofire.framework */,
+				5A1F3BDF4134D9904CE7EDC2 /* Alamofire.framework */,
+				2A35CC28EAEDD2434EA2A1A3 /* Pods_ribotTeam.framework */,
+				B251D6F5A8BD2426373F6DD6 /* Pods_ribotTeamtvOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1B3ACC5410D943F5D9DB7D /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5197FC6AF894F7D47E089B8 /* Foundation.framework */,
 			);
 			name = tvOS;
+			sourceTree = "<group>";
+		};
+		D02B331C777EFB6CE57EFF70 = {
+			isa = PBXGroup;
+			children = (
+				7FEA70D1AACE1E64D7DCCBAE /* Podfile */,
+				67CECF03F32465A02D4501F6 /* Frameworks */,
+				D1E782EA5A4C76A4F7CEFD50 /* Pods */,
+				8835D031E60735337B7B0233 /* Products */,
+				6625765FEC0E02320A5F62A9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E782EA5A4C76A4F7CEFD50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52BF933FC99E586982AB4B74 /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9D9A90CD55D32B19CEC2871 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE76EBB1A396AF2E637E4C64 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		17112BC5B6C8BAB96611541CBB341F7A /* Headers */ = {
+		38D58AEA416CD2167EDCD337 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F9401A680FA5A89846E5343C72D3C6 /* Pods-ribotTeam-umbrella.h in Headers */,
+				73F2F1E5C2E4DFFAC0D954C8 /* Pods-ribotTeam-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F7B61281F714E2A64A51E80A2C9C062 /* Headers */ = {
+		6E118DDBB5BD4D0AC212F1A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */,
+				33FE0EB21AD85F93B2789B26 /* Pods-ribotTeamtvOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE0CBF2479C73BFF1F5F24303840E854 /* Headers */ = {
+		BA7BA96817B7AB065680C29D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				404EF53CC5535341CC1D08E400B7E3F0 /* Pods-ribotTeamtvOS-umbrella.h in Headers */,
+				77B81E4798DB04B9A13F93B0 /* Pods-ribotTeamtvOS-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB7C7B86E3B30E101F42B14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB8698F7E18646462D6BADF /* Pods-ribotTeam-Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0B0CD6B599F6150C1BE6903E855CFFFE /* Pods-ribotTeamtvOS */ = {
+		9ACDB816942330803AEC86B0 /* Pods-ribotTeamtvOS-Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 203DD34DE6AA26239C33E46E2D8BE345 /* Build configuration list for PBXNativeTarget "Pods-ribotTeamtvOS" */;
+			buildConfigurationList = 364387457D4656BA5E1B36E0 /* Build configuration list for PBXNativeTarget "Pods-ribotTeamtvOS-Alamofire" */;
 			buildPhases = (
-				7D3EAB59DDB5D361E55E8FD57410C33D /* Sources */,
-				696F682F2E7E74FDB466EAE7859D3B1E /* Frameworks */,
-				BE0CBF2479C73BFF1F5F24303840E854 /* Headers */,
+				3E20F5844EBD40ED7EA490A9 /* Sources */,
+				BB29D22F9B79833084A90F29 /* Frameworks */,
+				BA7BA96817B7AB065680C29D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				893E54BF4854AC0D061AC4AE793B99CC /* PBXTargetDependency */,
+			);
+			name = "Pods-ribotTeamtvOS-Alamofire";
+			productName = "Pods-ribotTeamtvOS-Alamofire";
+			productReference = 5A1F3BDF4134D9904CE7EDC2 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D12D6321110FCFB37C3508FB /* Pods-ribotTeamtvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ED33C6A8E00EE5C9D38F59 /* Build configuration list for PBXNativeTarget "Pods-ribotTeamtvOS" */;
+			buildPhases = (
+				DD1183BEFF1728B039BC023B /* Sources */,
+				968364EF95B9A3C7B9AF3414 /* Frameworks */,
+				6E118DDBB5BD4D0AC212F1A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719AB1E60E2D8B527D908023 /* PBXTargetDependency */,
 			);
 			name = "Pods-ribotTeamtvOS";
 			productName = "Pods-ribotTeamtvOS";
-			productReference = BDB41217A608BB66906AD2B1FCFC3309 /* Pods_ribotTeamtvOS.framework */;
+			productReference = B251D6F5A8BD2426373F6DD6 /* Pods_ribotTeamtvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		432ECC54282C84882B482CCB4CF227FC /* Alamofire */ = {
+		F5FE6895BBEAF7D6CA3DCDBE /* Pods-ribotTeam-Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = 55ECAF9D9DE0F7CA4540BA6F /* Build configuration list for PBXNativeTarget "Pods-ribotTeam-Alamofire" */;
 			buildPhases = (
-				EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */,
-				A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */,
-				5F7B61281F714E2A64A51E80A2C9C062 /* Headers */,
+				E1EC2E22E5418A6A3465198F /* Sources */,
+				1A2535A55E11C9C4A7DF4C77 /* Frameworks */,
+				CAB7C7B86E3B30E101F42B14 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Alamofire;
-			productName = Alamofire;
-			productReference = CD75BAA840F86F99D2C7AEDD5F35DC41 /* Alamofire.framework */;
+			name = "Pods-ribotTeam-Alamofire";
+			productName = "Pods-ribotTeam-Alamofire";
+			productReference = 24EBD92AB60B6A1797E13246 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FC0C2DF5ACA1BFBF37F4960D05662C2B /* Pods-ribotTeam */ = {
+		F87EF7EF77FA4F2F7980486A /* Pods-ribotTeam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFE0F88755E0995CAB1873F3C7768516 /* Build configuration list for PBXNativeTarget "Pods-ribotTeam" */;
+			buildConfigurationList = AC362AA335AF79AB62D3804E /* Build configuration list for PBXNativeTarget "Pods-ribotTeam" */;
 			buildPhases = (
-				1F9BBD8282A9A72637B6DD1A97EF1BD1 /* Sources */,
-				B0FE62653ED14A28D90CE164C433A16C /* Frameworks */,
-				17112BC5B6C8BAB96611541CBB341F7A /* Headers */,
+				7F913840E956F393858C0BDE /* Sources */,
+				CE5B3DB586B61CDBD4997491 /* Frameworks */,
+				38D58AEA416CD2167EDCD337 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0BA2219065ED5440E5C6229196825BC1 /* PBXTargetDependency */,
+				F25B7DC4CA844FA85CDDB8BB /* PBXTargetDependency */,
 			);
 			name = "Pods-ribotTeam";
 			productName = "Pods-ribotTeam";
-			productReference = 871AFFC914EC525FABF07513885ED232 /* Pods_ribotTeam.framework */;
+			productReference = 2A35CC28EAEDD2434EA2A1A3 /* Pods_ribotTeam.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		E8F9F7B44B7DF1476DFAC228 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 3834C91D60960EF19D583651 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C9A4B9C67955EBACB283C894575474B9 /* Products */;
+			mainGroup = D02B331C777EFB6CE57EFF70;
+			productRefGroup = 8835D031E60735337B7B0233 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				432ECC54282C84882B482CCB4CF227FC /* Alamofire */,
-				FC0C2DF5ACA1BFBF37F4960D05662C2B /* Pods-ribotTeam */,
-				0B0CD6B599F6150C1BE6903E855CFFFE /* Pods-ribotTeamtvOS */,
+				F87EF7EF77FA4F2F7980486A /* Pods-ribotTeam */,
+				F5FE6895BBEAF7D6CA3DCDBE /* Pods-ribotTeam-Alamofire */,
+				D12D6321110FCFB37C3508FB /* Pods-ribotTeamtvOS */,
+				9ACDB816942330803AEC86B0 /* Pods-ribotTeamtvOS-Alamofire */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F9BBD8282A9A72637B6DD1A97EF1BD1 /* Sources */ = {
+		3E20F5844EBD40ED7EA490A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4130ECC96831485B373C96CE2A07B97 /* Pods-ribotTeam-dummy.m in Sources */,
+				97DAE4EABE91B56FC0BF441E /* Alamofire.swift in Sources */,
+				288D1F8E562A0816BA396DAF /* Download.swift in Sources */,
+				B80CE46FAAD2C0418DE28600 /* Error.swift in Sources */,
+				7EF0E7A694426F463B31C96C /* Manager.swift in Sources */,
+				5D85F7B6D24641E4C493E06D /* MultipartFormData.swift in Sources */,
+				F14FA4120205722D2FAC3F96 /* ParameterEncoding.swift in Sources */,
+				C1C4D150A60DA5B20B21E3C4 /* Pods-ribotTeamtvOS-Alamofire-dummy.m in Sources */,
+				14843E41389B114657C6CA7F /* Request.swift in Sources */,
+				80B11FBF83B470206AA4BA6B /* Response.swift in Sources */,
+				AD635059353629B38C01D15A /* ResponseSerialization.swift in Sources */,
+				45C71F614854075C99CC0101 /* Result.swift in Sources */,
+				3191F3F509A46958350E0D78 /* ServerTrustPolicy.swift in Sources */,
+				50B3411BF97F7B2141E8B19A /* Stream.swift in Sources */,
+				B06DE4EF5ED2484AF153559D /* Upload.swift in Sources */,
+				8AC14DBD6208B9214970C911 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D3EAB59DDB5D361E55E8FD57410C33D /* Sources */ = {
+		7F913840E956F393858C0BDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F877C1307679178400D9D8A0C425E1B /* Pods-ribotTeamtvOS-dummy.m in Sources */,
+				8B0C16D3927262A46F2EA606 /* Pods-ribotTeam-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */ = {
+		DD1183BEFF1728B039BC023B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */,
-				B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */,
-				A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */,
-				D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */,
-				A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */,
-				8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */,
-				4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */,
-				FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */,
-				03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */,
-				D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */,
-				82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */,
-				80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */,
-				FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */,
-				0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */,
-				C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */,
+				7A2369691D5CF03790449F69 /* Pods-ribotTeamtvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EC2E22E5418A6A3465198F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2754A30B9D83867E0290A6F /* Alamofire.swift in Sources */,
+				587F3FF10D3770F310AE9B3E /* Download.swift in Sources */,
+				EE1F3C9DC38949BA1151D6A4 /* Error.swift in Sources */,
+				86D1A12EA302A004968564B2 /* Manager.swift in Sources */,
+				936D2707D69D10A4C3351D74 /* MultipartFormData.swift in Sources */,
+				BEB7F0F8296FCC186D4B5BDC /* ParameterEncoding.swift in Sources */,
+				79C5058886F357C3445CF92E /* Pods-ribotTeam-Alamofire-dummy.m in Sources */,
+				35E47D6227B2AF44E199960F /* Request.swift in Sources */,
+				7DA112090DBD7083C4C73E9F /* Response.swift in Sources */,
+				0569CCC75C40F14C076F0CF6 /* ResponseSerialization.swift in Sources */,
+				81E5A759D1C898A9B399EB70 /* Result.swift in Sources */,
+				AA252F755062D84AF4D3B4F4 /* ServerTrustPolicy.swift in Sources */,
+				EDE1C265437003033B669D9B /* Stream.swift in Sources */,
+				760E2DB528BD7E6D81F801FF /* Upload.swift in Sources */,
+				C81C9D8B660AB095613605B7 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0BA2219065ED5440E5C6229196825BC1 /* PBXTargetDependency */ = {
+		719AB1E60E2D8B527D908023 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
-			targetProxy = E4CA8F9A5222B2EEF2DA0B082F54E3FB /* PBXContainerItemProxy */;
+			name = "Pods-ribotTeamtvOS-Alamofire";
+			target = 9ACDB816942330803AEC86B0 /* Pods-ribotTeamtvOS-Alamofire */;
+			targetProxy = 3159A3D2D299A5D0D6BB20C2 /* PBXContainerItemProxy */;
 		};
-		893E54BF4854AC0D061AC4AE793B99CC /* PBXTargetDependency */ = {
+		F25B7DC4CA844FA85CDDB8BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
-			targetProxy = B1E5FF304482B4543F1096BC46CEB43C /* PBXContainerItemProxy */;
+			name = "Pods-ribotTeam-Alamofire";
+			target = F5FE6895BBEAF7D6CA3DCDBE /* Pods-ribotTeam-Alamofire */;
+			targetProxy = 833CC5767FFECBB59D57A3B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		61220CEE3BC8370E054228E92865C313 /* Debug */ = {
+		122FE1144D910E7BC34F37C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3115F9679CF4C8A91194D73 /* Pods-ribotTeamtvOS.release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeamtvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeamtvOS/Pods-ribotTeamtvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ribotTeamtvOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18ED6E247A012268E642214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3DF5E1FBE726DE966CD417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F07B958FDA3A3E65CCB882 /* Pods-ribotTeam-Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ribotTeam-Alamofire/Pods-ribotTeam-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeam-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeam-Alamofire/Pods-ribotTeam-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C471420582AC3E4E3B16AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9316BCBFF8DC2A3488934AC3 /* Pods-ribotTeamtvOS.debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeamtvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeamtvOS/Pods-ribotTeamtvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ribotTeamtvOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		918993CFD38D60B2FAE57A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B220F0A583B35426F3DE0A0 /* Pods-ribotTeamtvOS-Alamofire.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeamtvOS-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98AEF7B78843BDFD04A69F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F07B958FDA3A3E65CCB882 /* Pods-ribotTeam-Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ribotTeam-Alamofire/Pods-ribotTeam-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeam-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeam-Alamofire/Pods-ribotTeam-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2BE96085AA7C6F73E776765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B220F0A583B35426F3DE0A0 /* Pods-ribotTeamtvOS-Alamofire.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeamtvOS-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeamtvOS-Alamofire/Pods-ribotTeamtvOS-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2EBE7BB6933443FFBB656C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9046336D246E648B73B8FDC /* Pods-ribotTeam.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeam/Pods-ribotTeam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ribotTeam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C81B97A548D78183FC96DC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5340C9F0A0C5D3DBB61C7F97 /* Pods-ribotTeam.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeam/Pods-ribotTeam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ribotTeam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF8548407292F71FBE3F3E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -451,6 +803,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -458,239 +811,55 @@
 			};
 			name = Debug;
 		};
-		6FE6C0A58208A7BE3E91EE96D9D163F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D18862FAFE0ED8198F95260FCAD208 /* Pods-ribotTeam.release.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeam/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeam/Pods-ribotTeam.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ribotTeam;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7A3726713E482218C88C887701077E3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96E7BE3A3DCE4CBB089D2D55CD287A39 /* Pods-ribotTeam.debug.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeam/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeam/Pods-ribotTeam.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ribotTeam;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8DF564C22A0B84CF09CA9CF26C7533E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 488267F0ADE61A30891B1B4DB24F8322 /* Pods-ribotTeamtvOS.debug.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeamtvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeamtvOS/Pods-ribotTeamtvOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ribotTeamtvOS;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB9B349BBA98DEA5123859C6F610FDEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BBC655E8C3965009CC6707C52EDF6F07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BE1FA7F12CE12C2983845FEDFAC54B55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5338F7F31D140E5C93FBCEBD7DEC2CDF /* Pods-ribotTeamtvOS.release.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ribotTeamtvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ribotTeamtvOS/Pods-ribotTeamtvOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ribotTeamtvOS;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D704B04E00139B8E8C866BBC08ED1B75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		203DD34DE6AA26239C33E46E2D8BE345 /* Build configuration list for PBXNativeTarget "Pods-ribotTeamtvOS" */ = {
+		364387457D4656BA5E1B36E0 /* Build configuration list for PBXNativeTarget "Pods-ribotTeamtvOS-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DF564C22A0B84CF09CA9CF26C7533E2 /* Debug */,
-				BE1FA7F12CE12C2983845FEDFAC54B55 /* Release */,
+				B2BE96085AA7C6F73E776765 /* Debug */,
+				918993CFD38D60B2FAE57A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		3834C91D60960EF19D583651 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61220CEE3BC8370E054228E92865C313 /* Debug */,
-				D704B04E00139B8E8C866BBC08ED1B75 /* Release */,
+				FF8548407292F71FBE3F3E32 /* Debug */,
+				18ED6E247A012268E642214C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		55ECAF9D9DE0F7CA4540BA6F /* Build configuration list for PBXNativeTarget "Pods-ribotTeam-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBC655E8C3965009CC6707C52EDF6F07 /* Debug */,
-				AB9B349BBA98DEA5123859C6F610FDEF /* Release */,
+				98AEF7B78843BDFD04A69F5E /* Debug */,
+				1A3DF5E1FBE726DE966CD417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFE0F88755E0995CAB1873F3C7768516 /* Build configuration list for PBXNativeTarget "Pods-ribotTeam" */ = {
+		55ED33C6A8E00EE5C9D38F59 /* Build configuration list for PBXNativeTarget "Pods-ribotTeamtvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A3726713E482218C88C887701077E3C /* Debug */,
-				6FE6C0A58208A7BE3E91EE96D9D163F1 /* Release */,
+				4C471420582AC3E4E3B16AA0 /* Debug */,
+				122FE1144D910E7BC34F37C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC362AA335AF79AB62D3804E /* Build configuration list for PBXNativeTarget "Pods-ribotTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EBE7BB6933443FFBB656C2 /* Debug */,
+				C81B97A548D78183FC96DC59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = E8F9F7B44B7DF1476DFAC228 /* Project object */;
 }

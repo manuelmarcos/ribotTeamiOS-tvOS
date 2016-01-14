@@ -1,10 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 # Podfile
-platform :ios, '9.1'
-platform :tvos, '9.1'
 
-use_frameworks!
- 
+
 # Other pods
  
 def networking_pods
@@ -12,9 +9,13 @@ def networking_pods
 end
  
 target 'ribotTeam' do
+    platform :ios, '9.1'
+    use_frameworks!
     networking_pods
 end
  
 target 'ribotTeamtvOS' do
+    platform :tvos, '9.1'
+    use_frameworks!
     networking_pods
 end
