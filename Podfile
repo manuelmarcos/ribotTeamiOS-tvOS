@@ -1,21 +1,18 @@
 source 'https://github.com/CocoaPods/Specs.git'
 # Podfile
 
-
-# Other pods
- 
-def networking_pods
+def shared_pods
     pod 'Alamofire', '~> 3.0'
 end
  
 target 'ribotTeam' do
-    platform :ios, '9.1'
+    platform :ios, '9.0'
     use_frameworks!
-    networking_pods
+    shared_pods
 end
  
 target 'ribotTeamtvOS' do
-    platform :tvos, '9.1'
+    platform :tvos, '9.0'
     use_frameworks!
-    networking_pods
+    shared_pods
 end
