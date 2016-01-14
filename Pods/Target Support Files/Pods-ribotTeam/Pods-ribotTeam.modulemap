@@ -1,0 +1,6 @@
+framework module Pods_ribotTeam {
+  umbrella header "Pods-ribotTeam-umbrella.h"
+
+  export *
+  module * { export * }
+}
