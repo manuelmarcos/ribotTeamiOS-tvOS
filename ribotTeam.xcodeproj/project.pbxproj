@@ -22,6 +22,16 @@
 		9F1A6F241C46BB49009BBAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A6F231C46BB49009BBAAC /* Assets.xcassets */; };
 		9F1A6F2F1C46BB49009BBAAC /* ribotTeamtvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6F2E1C46BB49009BBAAC /* ribotTeamtvOSTests.swift */; };
 		9F1A6F3A1C46BB49009BBAAC /* ribotTeamtvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6F391C46BB49009BBAAC /* ribotTeamtvOSUITests.swift */; };
+		9F6BE3A01C490B0600714FBB /* SharedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE39F1C490B0600714FBB /* SharedNetworkManager.swift */; };
+		9F6BE3A11C490B0600714FBB /* SharedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE39F1C490B0600714FBB /* SharedNetworkManager.swift */; };
+		9F6BE3A51C490B7800714FBB /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3A41C490B7800714FBB /* SharedConstants.swift */; };
+		9F6BE3A61C490B7800714FBB /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3A41C490B7800714FBB /* SharedConstants.swift */; };
+		9F6BE3AC1C4914DA00714FBB /* SharedRibotProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3AB1C4914DA00714FBB /* SharedRibotProfile.swift */; };
+		9F6BE3AD1C4914DA00714FBB /* SharedRibotProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3AB1C4914DA00714FBB /* SharedRibotProfile.swift */; };
+		9F6BE3B31C4917C200714FBB /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3B21C4917C200714FBB /* AlamofireRequest.swift */; };
+		9F6BE3B41C4917C200714FBB /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3B21C4917C200714FBB /* AlamofireRequest.swift */; };
+		9F6BE3B61C49437200714FBB /* SharedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3B51C49437200714FBB /* SharedDataManager.swift */; };
+		9F6BE3B71C49437200714FBB /* SharedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3B51C49437200714FBB /* SharedDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +96,11 @@
 		9F1A6F351C46BB49009BBAAC /* ribotTeamtvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ribotTeamtvOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1A6F391C46BB49009BBAAC /* ribotTeamtvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ribotTeamtvOSUITests.swift; sourceTree = "<group>"; };
 		9F1A6F3B1C46BB49009BBAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6BE39F1C490B0600714FBB /* SharedNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedNetworkManager.swift; sourceTree = "<group>"; };
+		9F6BE3A41C490B7800714FBB /* SharedConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedConstants.swift; sourceTree = "<group>"; };
+		9F6BE3AB1C4914DA00714FBB /* SharedRibotProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedRibotProfile.swift; sourceTree = "<group>"; };
+		9F6BE3B21C4917C200714FBB /* AlamofireRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
+		9F6BE3B51C49437200714FBB /* SharedDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedDataManager.swift; sourceTree = "<group>"; };
 		C5362C6142BF3E84C95F7A1F /* Pods-ribotTeamtvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribotTeamtvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ribotTeamtvOS/Pods-ribotTeamtvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,12 +175,9 @@
 		9F1A6EDC1C46BB39009BBAAC = {
 			isa = PBXGroup;
 			children = (
-				9F1A6EE71C46BB39009BBAAC /* ribotTeam */,
-				9F1A6EFC1C46BB39009BBAAC /* ribotTeamTests */,
-				9F1A6F071C46BB39009BBAAC /* ribotTeamUITests */,
-				9F1A6F1B1C46BB48009BBAAC /* ribotTeamtvOS */,
-				9F1A6F2D1C46BB49009BBAAC /* ribotTeamtvOSTests */,
-				9F1A6F381C46BB49009BBAAC /* ribotTeamtvOSUITests */,
+				9F6BE39E1C4909BA00714FBB /* Shared */,
+				9F6BE39D1C49099300714FBB /* tvOS */,
+				9F6BE39C1C49098F00714FBB /* iOS */,
 				9F1A6EE61C46BB39009BBAAC /* Products */,
 				12D3522EFCF8588CFC22CA8C /* Pods */,
 				7C5A341BD7C21F848A84F681 /* Frameworks */,
@@ -244,6 +256,70 @@
 				9F1A6F3B1C46BB49009BBAAC /* Info.plist */,
 			);
 			path = ribotTeamtvOSUITests;
+			sourceTree = "<group>";
+		};
+		9F6BE39C1C49098F00714FBB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A6EE71C46BB39009BBAAC /* ribotTeam */,
+				9F1A6F071C46BB39009BBAAC /* ribotTeamUITests */,
+				9F1A6EFC1C46BB39009BBAAC /* ribotTeamTests */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F6BE39D1C49099300714FBB /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A6F1B1C46BB48009BBAAC /* ribotTeamtvOS */,
+				9F1A6F381C46BB49009BBAAC /* ribotTeamtvOSUITests */,
+				9F1A6F2D1C46BB49009BBAAC /* ribotTeamtvOSTests */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		9F6BE39E1C4909BA00714FBB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BE3B11C4917B800714FBB /* Extensions */,
+				9F6BE3A71C49130C00714FBB /* Model */,
+				9F6BE3A31C490B5700714FBB /* Utilities */,
+				9F6BE3A21C490B0A00714FBB /* Managers */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		9F6BE3A21C490B0A00714FBB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BE39F1C490B0600714FBB /* SharedNetworkManager.swift */,
+				9F6BE3B51C49437200714FBB /* SharedDataManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		9F6BE3A31C490B5700714FBB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BE3A41C490B7800714FBB /* SharedConstants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9F6BE3A71C49130C00714FBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BE3AB1C4914DA00714FBB /* SharedRibotProfile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F6BE3B11C4917B800714FBB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BE3B21C4917C200714FBB /* AlamofireRequest.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -566,7 +642,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6BE3B31C4917C200714FBB /* AlamofireRequest.swift in Sources */,
+				9F6BE3AC1C4914DA00714FBB /* SharedRibotProfile.swift in Sources */,
+				9F6BE3A51C490B7800714FBB /* SharedConstants.swift in Sources */,
+				9F6BE3A01C490B0600714FBB /* SharedNetworkManager.swift in Sources */,
 				9F1A6EEB1C46BB39009BBAAC /* ViewController.swift in Sources */,
+				9F6BE3B61C49437200714FBB /* SharedDataManager.swift in Sources */,
 				9F1A6EE91C46BB39009BBAAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,7 +672,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6BE3B41C4917C200714FBB /* AlamofireRequest.swift in Sources */,
+				9F6BE3AD1C4914DA00714FBB /* SharedRibotProfile.swift in Sources */,
+				9F6BE3A61C490B7800714FBB /* SharedConstants.swift in Sources */,
+				9F6BE3A11C490B0600714FBB /* SharedNetworkManager.swift in Sources */,
 				9F1A6F1F1C46BB49009BBAAC /* ViewController.swift in Sources */,
+				9F6BE3B71C49437200714FBB /* SharedDataManager.swift in Sources */,
 				9F1A6F1D1C46BB49009BBAAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

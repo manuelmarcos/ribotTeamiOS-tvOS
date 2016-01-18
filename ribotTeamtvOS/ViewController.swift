@@ -7,13 +7,19 @@
 //
 
 import UIKit
-import Alamofire
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        SharedDataManager.sharedInstance.collectionOfRibots { dataResult in
+            switch dataResult {
+            case .Success(let ribots):
+                print("team view ribots: \(ribots)")
+            case .Failure:
+                print("FAILURE")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
