@@ -29,8 +29,7 @@ extension Alamofire.Request {
             
             switch result {
             case .Success(let value):
-                if let
-                    response = response,
+                if let response = response,
                     responseObject = T(response: response, representation: value)
                 {
                     return .Success(responseObject)

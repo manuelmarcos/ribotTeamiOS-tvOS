@@ -41,7 +41,7 @@ final class SharedRibotProfile: NSObject {
     // MARK: - Description
     
     override var description: String {
-        var description : String = self.name.description + "\n" + self.email + "\n" + self.hexColor + "\n" + self.ribotar.absoluteString + "\n" + self.dateOfBirth
+        var description: String = self.name.description + "\n" + self.email + "\n" + self.hexColor + "\n" + self.ribotar.absoluteString + "\n" + self.dateOfBirth
         if bio != nil {
             description = description + "\n" + self.bio!
         }
