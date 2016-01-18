@@ -1,0 +1,6 @@
+framework module AlamofireImage {
+  umbrella header "Pods-ribotTeamtvOS-AlamofireImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -23,7 +23,9 @@ class SharedDataManager  {
         SharedNetworkManager.sharedInstance.getCollectionOfRibots() { response in
             switch response.result {
             case .Success(let ribots):
-                completionHandler(DataResult<[SharedRibotProfile]>.Success(ribots))
+                // Sort the collection of ribots by first name
+                let sortedRibots = ribots.sort({ $0.name.first < $1.name.first})
+                completionHandler(DataResult<[SharedRibotProfile]>.Success(sortedRibots))
             case .Failure(let error):
                 completionHandler(DataResult.Failure(error))
             }
