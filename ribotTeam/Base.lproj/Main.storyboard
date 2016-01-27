@@ -1,25 +1,101 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Ribot Team View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RibotTeamViewController" customModule="ribotTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="cmZ-aj-qwD">
+                                <rect key="frame" x="150" y="274" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Y26-ca-HjN">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="fmV-yT-7Fg">
+                                    <size key="itemSize" width="120" height="170"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RibotTeamViewCell" id="cLd-cr-2bz" customClass="SharedRibotTeamViewCell" customModule="ribotTeam" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="20" width="125" height="175"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="125" height="175"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Poo-iM-csn">
+                                                    <rect key="frame" x="5" y="8" width="115" height="115"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Poo-iM-csn" secondAttribute="height" multiplier="1:1" id="h2l-eb-k05"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEf-Q9-qMk">
+                                                    <rect key="frame" x="8" y="141" width="109" height="24"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="24" id="idA-ug-ZYw"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="Poo-iM-csn" firstAttribute="leading" secondItem="cLd-cr-2bz" secondAttribute="leading" constant="5" id="0Bz-Aa-Taq"/>
+                                            <constraint firstItem="Poo-iM-csn" firstAttribute="top" secondItem="cLd-cr-2bz" secondAttribute="top" constant="8" id="6Rl-HV-x56"/>
+                                            <constraint firstItem="FEf-Q9-qMk" firstAttribute="top" secondItem="Poo-iM-csn" secondAttribute="bottom" constant="18" id="CVJ-FX-bzF"/>
+                                            <constraint firstItem="FEf-Q9-qMk" firstAttribute="trailing" secondItem="cLd-cr-2bz" secondAttribute="trailingMargin" id="FLL-wh-CzX"/>
+                                            <constraint firstItem="FEf-Q9-qMk" firstAttribute="leading" secondItem="cLd-cr-2bz" secondAttribute="leadingMargin" id="W9a-uh-6a3"/>
+                                            <constraint firstAttribute="trailing" secondItem="Poo-iM-csn" secondAttribute="trailing" constant="5" id="k2S-hA-BaW"/>
+                                        </constraints>
+                                        <size key="customSize" width="125" height="175"/>
+                                        <connections>
+                                            <outlet property="ribotNameLabel" destination="FEf-Q9-qMk" id="Xbb-sD-9wb"/>
+                                            <outlet property="ribotarImageView" destination="Poo-iM-csn" id="2fU-FW-c0S"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="zc6-wp-1Yu"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="OfG-0Y-slQ"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19215686269999999" green="0.56470588239999997" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cmZ-aj-qwD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1fZ-CO-WJb"/>
+                            <constraint firstItem="Y26-ca-HjN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="4ky-JX-wLR"/>
+                            <constraint firstItem="Y26-ca-HjN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="7mq-xL-mi4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Y26-ca-HjN" secondAttribute="trailing" constant="-20" id="FkS-iT-K6O"/>
+                            <constraint firstItem="cmZ-aj-qwD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ar1-n6-1tB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Y26-ca-HjN" secondAttribute="bottom" id="fAR-bA-EOG"/>
+                        </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="teamActivityIndicator" destination="cmZ-aj-qwD" id="vXQ-QW-57G"/>
+                        <outlet property="teamCollectionView" destination="Y26-ca-HjN" id="sH7-G8-fKU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="301.60000000000002" y="274.06"/>
         </scene>
     </scenes>
 </document>

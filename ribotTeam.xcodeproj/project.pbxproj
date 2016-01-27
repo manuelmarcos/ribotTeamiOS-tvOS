@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		117979AF8AD8EF83D26284C0 /* Pods_ribotTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A0A39A0BE242C4D981E4A /* Pods_ribotTeam.framework */; };
 		8E8141C84CDB0471A1FF5E4B /* Pods_ribotTeamtvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544D19BFCA5D1E5E479D77A3 /* Pods_ribotTeamtvOS.framework */; };
+		9F0D025F1C4D06E7008995F9 /* SharedRibotTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D025E1C4D06E7008995F9 /* SharedRibotTeamViewController.swift */; };
+		9F0D02601C4D06E7008995F9 /* SharedRibotTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D025E1C4D06E7008995F9 /* SharedRibotTeamViewController.swift */; };
 		9F1A6EE91C46BB39009BBAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6EE81C46BB39009BBAAC /* AppDelegate.swift */; };
-		9F1A6EEB1C46BB39009BBAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6EEA1C46BB39009BBAAC /* ViewController.swift */; };
 		9F1A6EEE1C46BB39009BBAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A6EEC1C46BB39009BBAAC /* Main.storyboard */; };
 		9F1A6EF01C46BB39009BBAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A6EEF1C46BB39009BBAAC /* Assets.xcassets */; };
 		9F1A6EF31C46BB39009BBAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A6EF11C46BB39009BBAAC /* LaunchScreen.storyboard */; };
 		9F1A6EFE1C46BB39009BBAAC /* ribotTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6EFD1C46BB39009BBAAC /* ribotTeamTests.swift */; };
 		9F1A6F091C46BB39009BBAAC /* ribotTeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6F081C46BB39009BBAAC /* ribotTeamUITests.swift */; };
 		9F1A6F1D1C46BB49009BBAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6F1C1C46BB49009BBAAC /* AppDelegate.swift */; };
-		9F1A6F1F1C46BB49009BBAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6F1E1C46BB49009BBAAC /* ViewController.swift */; };
 		9F1A6F221C46BB49009BBAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A6F201C46BB49009BBAAC /* Main.storyboard */; };
 		9F1A6F241C46BB49009BBAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A6F231C46BB49009BBAAC /* Assets.xcassets */; };
 		9F1A6F2F1C46BB49009BBAAC /* ribotTeamtvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6F2E1C46BB49009BBAAC /* ribotTeamtvOSTests.swift */; };
@@ -32,6 +32,10 @@
 		9F6BE3B41C4917C200714FBB /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3B21C4917C200714FBB /* AlamofireRequest.swift */; };
 		9F6BE3B61C49437200714FBB /* SharedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3B51C49437200714FBB /* SharedDataManager.swift */; };
 		9F6BE3B71C49437200714FBB /* SharedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3B51C49437200714FBB /* SharedDataManager.swift */; };
+		9F6BE3BB1C49519300714FBB /* SharedRibotTeamViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3BA1C49519300714FBB /* SharedRibotTeamViewCell.swift */; };
+		9F6BE3BC1C49519300714FBB /* SharedRibotTeamViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BE3BA1C49519300714FBB /* SharedRibotTeamViewCell.swift */; };
+		9F9A01711C57C85000C60B81 /* RibotTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A01701C57C85000C60B81 /* RibotTeamViewController.swift */; };
+		9FA8ED831C524836001A21F4 /* RibotTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8ED821C524836001A21F4 /* RibotTeamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,9 +75,9 @@
 		51A99A1E0A3F55B0047D5279 /* Pods-ribotTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribotTeam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ribotTeam/Pods-ribotTeam.debug.xcconfig"; sourceTree = "<group>"; };
 		544D19BFCA5D1E5E479D77A3 /* Pods_ribotTeamtvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribotTeamtvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		910A0A39A0BE242C4D981E4A /* Pods_ribotTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ribotTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0D025E1C4D06E7008995F9 /* SharedRibotTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedRibotTeamViewController.swift; sourceTree = "<group>"; };
 		9F1A6EE51C46BB39009BBAAC /* ribotTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ribotTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1A6EE81C46BB39009BBAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F1A6EEA1C46BB39009BBAAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F1A6EED1C46BB39009BBAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F1A6EEF1C46BB39009BBAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1A6EF21C46BB39009BBAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +90,6 @@
 		9F1A6F0A1C46BB39009BBAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F1A6F1A1C46BB48009BBAAC /* ribotTeamtvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ribotTeamtvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1A6F1C1C46BB49009BBAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F1A6F1E1C46BB49009BBAAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F1A6F211C46BB49009BBAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F1A6F231C46BB49009BBAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1A6F251C46BB49009BBAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +104,9 @@
 		9F6BE3AB1C4914DA00714FBB /* SharedRibotProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedRibotProfile.swift; sourceTree = "<group>"; };
 		9F6BE3B21C4917C200714FBB /* AlamofireRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
 		9F6BE3B51C49437200714FBB /* SharedDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedDataManager.swift; sourceTree = "<group>"; };
+		9F6BE3BA1C49519300714FBB /* SharedRibotTeamViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedRibotTeamViewCell.swift; sourceTree = "<group>"; };
+		9F9A01701C57C85000C60B81 /* RibotTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RibotTeamViewController.swift; sourceTree = "<group>"; };
+		9FA8ED821C524836001A21F4 /* RibotTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RibotTeamViewController.swift; sourceTree = "<group>"; };
 		C5362C6142BF3E84C95F7A1F /* Pods-ribotTeamtvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribotTeamtvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ribotTeamtvOS/Pods-ribotTeamtvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,11 +207,9 @@
 			isa = PBXGroup;
 			children = (
 				9F1A6EE81C46BB39009BBAAC /* AppDelegate.swift */,
-				9F1A6EEA1C46BB39009BBAAC /* ViewController.swift */,
-				9F1A6EEC1C46BB39009BBAAC /* Main.storyboard */,
-				9F1A6EEF1C46BB39009BBAAC /* Assets.xcassets */,
-				9F1A6EF11C46BB39009BBAAC /* LaunchScreen.storyboard */,
-				9F1A6EF41C46BB39009BBAAC /* Info.plist */,
+				9F5BBD7D1C58C85C0004FBA5 /* Assets */,
+				9F5BBD7F1C58C86A0004FBA5 /* Views */,
+				9F5BBD801C58C86F0004FBA5 /* Supporting Files */,
 			);
 			path = ribotTeam;
 			sourceTree = "<group>";
@@ -232,10 +236,9 @@
 			isa = PBXGroup;
 			children = (
 				9F1A6F1C1C46BB49009BBAAC /* AppDelegate.swift */,
-				9F1A6F1E1C46BB49009BBAAC /* ViewController.swift */,
-				9F1A6F201C46BB49009BBAAC /* Main.storyboard */,
-				9F1A6F231C46BB49009BBAAC /* Assets.xcassets */,
-				9F1A6F251C46BB49009BBAAC /* Info.plist */,
+				9F5BBD7B1C58C80A0004FBA5 /* Assets */,
+				9F5BBD7A1C58C7DB0004FBA5 /* Views */,
+				9F5BBD7C1C58C8210004FBA5 /* Supporting Files */,
 			);
 			path = ribotTeamtvOS;
 			sourceTree = "<group>";
@@ -256,6 +259,57 @@
 				9F1A6F3B1C46BB49009BBAAC /* Info.plist */,
 			);
 			path = ribotTeamtvOSUITests;
+			sourceTree = "<group>";
+		};
+		9F5BBD7A1C58C7DB0004FBA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F9A01701C57C85000C60B81 /* RibotTeamViewController.swift */,
+				9F1A6F201C46BB49009BBAAC /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9F5BBD7B1C58C80A0004FBA5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A6F231C46BB49009BBAAC /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9F5BBD7C1C58C8210004FBA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A6F251C46BB49009BBAAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F5BBD7D1C58C85C0004FBA5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A6EEF1C46BB39009BBAAC /* Assets.xcassets */,
+				9F1A6EF11C46BB39009BBAAC /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9F5BBD7F1C58C86A0004FBA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FA8ED821C524836001A21F4 /* RibotTeamViewController.swift */,
+				9F1A6EEC1C46BB39009BBAAC /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9F5BBD801C58C86F0004FBA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A6EF41C46BB39009BBAAC /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9F6BE39C1C49098F00714FBB /* iOS */ = {
@@ -282,9 +336,10 @@
 			isa = PBXGroup;
 			children = (
 				9F6BE3B11C4917B800714FBB /* Extensions */,
+				9F6BE3A21C490B0A00714FBB /* Managers */,
 				9F6BE3A71C49130C00714FBB /* Model */,
 				9F6BE3A31C490B5700714FBB /* Utilities */,
-				9F6BE3A21C490B0A00714FBB /* Managers */,
+				9F6BE3B91C4950C700714FBB /* Views */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -320,6 +375,15 @@
 				9F6BE3B21C4917C200714FBB /* AlamofireRequest.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		9F6BE3B91C4950C700714FBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F0D025E1C4D06E7008995F9 /* SharedRibotTeamViewController.swift */,
+				9F6BE3BA1C49519300714FBB /* SharedRibotTeamViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,6 +524,7 @@
 					};
 					9F1A6F191C46BB48009BBAAC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MBNDNTWWUV;
 					};
 					9F1A6F291C46BB49009BBAAC = {
 						CreatedOnToolsVersion = 7.2;
@@ -643,12 +708,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6BE3B31C4917C200714FBB /* AlamofireRequest.swift in Sources */,
+				9F6BE3BB1C49519300714FBB /* SharedRibotTeamViewCell.swift in Sources */,
 				9F6BE3AC1C4914DA00714FBB /* SharedRibotProfile.swift in Sources */,
 				9F6BE3A51C490B7800714FBB /* SharedConstants.swift in Sources */,
 				9F6BE3A01C490B0600714FBB /* SharedNetworkManager.swift in Sources */,
-				9F1A6EEB1C46BB39009BBAAC /* ViewController.swift in Sources */,
 				9F6BE3B61C49437200714FBB /* SharedDataManager.swift in Sources */,
+				9FA8ED831C524836001A21F4 /* RibotTeamViewController.swift in Sources */,
 				9F1A6EE91C46BB39009BBAAC /* AppDelegate.swift in Sources */,
+				9F0D025F1C4D06E7008995F9 /* SharedRibotTeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,12 +740,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6BE3B41C4917C200714FBB /* AlamofireRequest.swift in Sources */,
+				9F6BE3BC1C49519300714FBB /* SharedRibotTeamViewCell.swift in Sources */,
 				9F6BE3AD1C4914DA00714FBB /* SharedRibotProfile.swift in Sources */,
 				9F6BE3A61C490B7800714FBB /* SharedConstants.swift in Sources */,
 				9F6BE3A11C490B0600714FBB /* SharedNetworkManager.swift in Sources */,
-				9F1A6F1F1C46BB49009BBAAC /* ViewController.swift in Sources */,
 				9F6BE3B71C49437200714FBB /* SharedDataManager.swift in Sources */,
+				9F9A01711C57C85000C60B81 /* RibotTeamViewController.swift in Sources */,
 				9F1A6F1D1C46BB49009BBAAC /* AppDelegate.swift in Sources */,
+				9F0D02601C4D06E7008995F9 /* SharedRibotTeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -914,10 +983,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ribotTeamtvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.ribot.ribotTeamtvOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -930,10 +1002,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ribotTeamtvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.ribot.ribotTeamtvOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
