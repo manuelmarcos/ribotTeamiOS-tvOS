@@ -6,7 +6,6 @@
 //  Copyright © 2016 Manuel Marcos Regalado. All rights reserved.
 //
 
-import Foundation
 import Alamofire
 
 class SharedNetworkManager {
