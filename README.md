@@ -1,5 +1,5 @@
 # Team ribot
-[![indie iOS focus weekly] (https://img.shields.io/badge/indie%20iOS%20focus%20weekly-%2356-green.svg)](https://indieiosfocus.curated.co/issues/56?#start)
+[![iOS Dev Weekly] (https://img.shields.io/badge/iOS%20dev%20Weekly-%23238-blue.svg)](https://iosdevweekly.com/issues/238?sid=UyBQ3w#start)  [![indie iOS focus weekly] (https://img.shields.io/badge/indie%20iOS%20focus%20weekly-%2356-green.svg)](https://indieiosfocus.curated.co/issues/56?#start)
 =
 
 This is a sample project created with the aim of sharing functionalities and code between iOS and tvOS. It's main functionality is display a list of [ribots](http://ribot.co.uk/us) with their ribotars and names.
